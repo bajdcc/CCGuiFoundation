@@ -1,0 +1,8 @@
+
+PLAN:
+	@ Regex library
+	@ Simple auto-build syntax analyzer
+	@ C-like programming language(reflection)
+	@ Physical Engine(tokamak)
+	@ OS like(shell,threa,file system)
+	@ Calc

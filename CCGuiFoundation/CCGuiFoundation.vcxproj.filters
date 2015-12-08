@@ -1,0 +1,257 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="WTF">
+      <UniqueIdentifier>{ce3e5f5d-dc47-4e62-a64e-a304e35e2d92}</UniqueIdentifier>
+      <Extensions>.h</Extensions>
+    </Filter>
+    <Filter Include="GUI">
+      <UniqueIdentifier>{2abad945-79f3-4004-b8ef-cfab712c8fe4}</UniqueIdentifier>
+      <Extensions>.h,.cpp</Extensions>
+    </Filter>
+    <Filter Include="GUI\ComCtl">
+      <UniqueIdentifier>{13ac2972-8fd4-43a7-a1f6-0c8a15bca8f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script">
+      <UniqueIdentifier>{4551b437-2deb-4b5f-a084-028be267b5cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Regex">
+      <UniqueIdentifier>{cebb533d-cfea-4634-b954-77428914c0e6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+    <Text Include="Plan.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GUI\cc_base.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\cc_composition.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\cc_control.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\cc_controller.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\cc_debug.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\cc_def.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\cc_direct2d.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\cc_element.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\cc_form.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\cc_include.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\cc_interface.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\cc_presentation.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\cc_resource.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\cc_service.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\cc_template.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\cc_thread.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="GUI\cc_button.h">
+      <Filter>GUI\ComCtl</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\cc_label.h">
+      <Filter>GUI\ComCtl</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\cc_textbox.h">
+      <Filter>GUI\ComCtl</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\cc_comctl.h">
+      <Filter>GUI\ComCtl</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\cc_scroll.h">
+      <Filter>GUI\ComCtl</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\cc_style.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\cc_toolstrip.h">
+      <Filter>GUI\ComCtl</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\cc_list.h">
+      <Filter>GUI\ComCtl</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\cc_tab.h">
+      <Filter>GUI\ComCtl</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\cc_console.h">
+      <Filter>GUI\ComCtl</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\cc_exception.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\cs_inst.h">
+      <Filter>Script</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\cs_pool.h">
+      <Filter>Script</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\cs_atm.h">
+      <Filter>Script\Regex</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\cs_regex.h">
+      <Filter>Script\Regex</Filter>
+    </ClInclude>
+    <ClInclude Include="WTF\Compiler.h">
+      <Filter>WTF</Filter>
+    </ClInclude>
+    <ClInclude Include="WTF\Noncopyable.h">
+      <Filter>WTF</Filter>
+    </ClInclude>
+    <ClInclude Include="WTF\PassOwnPtr.h">
+      <Filter>WTF</Filter>
+    </ClInclude>
+    <ClInclude Include="WTF\PassRef.h">
+      <Filter>WTF</Filter>
+    </ClInclude>
+    <ClInclude Include="WTF\PassRefPtr.h">
+      <Filter>WTF</Filter>
+    </ClInclude>
+    <ClInclude Include="WTF\Platform.h">
+      <Filter>WTF</Filter>
+    </ClInclude>
+    <ClInclude Include="WTF\RawPointer.h">
+      <Filter>WTF</Filter>
+    </ClInclude>
+    <ClInclude Include="WTF\refcounted.h">
+      <Filter>WTF</Filter>
+    </ClInclude>
+    <ClInclude Include="WTF\RefCountedArray.h">
+      <Filter>WTF</Filter>
+    </ClInclude>
+    <ClInclude Include="WTF\RefCountedLeakCounter.h">
+      <Filter>WTF</Filter>
+    </ClInclude>
+    <ClInclude Include="WTF\RefPtr.h">
+      <Filter>WTF</Filter>
+    </ClInclude>
+    <ClInclude Include="WTF\RefPtrHashMap.h">
+      <Filter>WTF</Filter>
+    </ClInclude>
+    <ClInclude Include="WTF\AVLTree.h">
+      <Filter>WTF</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\cs_regfa.h">
+      <Filter>Script\Regex</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GUI\cc_base.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\cc_composition.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\cc_control.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\cc_controller.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\cc_debug.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\cc_direct2d.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\cc_element.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\cc_form.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\cc_include.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\cc_interface.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\cc_presentation.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\cc_resource.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\cc_service.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\cc_thread.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="GUI\cc_button.cpp">
+      <Filter>GUI\ComCtl</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\cc_label.cpp">
+      <Filter>GUI\ComCtl</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\cc_textbox.cpp">
+      <Filter>GUI\ComCtl</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\cc_comctl.cpp">
+      <Filter>GUI\ComCtl</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\cc_scroll.cpp">
+      <Filter>GUI\ComCtl</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\cc_style.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\cc_toolstrip.cpp">
+      <Filter>GUI\ComCtl</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\cc_list.cpp">
+      <Filter>GUI\ComCtl</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\cc_tab.cpp">
+      <Filter>GUI\ComCtl</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\cc_console.cpp">
+      <Filter>GUI\ComCtl</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\cc_exception.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\cs_inst.cpp">
+      <Filter>Script</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\cs_console.cpp">
+      <Filter>Script</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\cs_regfa.cpp">
+      <Filter>Script\Regex</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

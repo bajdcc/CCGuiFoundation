@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{38278649-5561-4E41-9584-A6DBFEC50D1A}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>CCGuiFoundation</RootNamespace>
+    <SccProjectName>
+    </SccProjectName>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccProvider>
+    </SccProvider>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;CCGUI_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <BrowseInformation>false</BrowseInformation>
+      <AdditionalIncludeDirectories>$(ProjectDir)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Bscmake>
+      <PreserveSbr>true</PreserveSbr>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_USRDLL;CCGUI_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(ProjectDir)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="Plan.txt" />
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GUI\cc_base.h" />
+    <ClInclude Include="GUI\cc_button.h" />
+    <ClInclude Include="GUI\cc_comctl.h" />
+    <ClInclude Include="GUI\cc_composition.h" />
+    <ClInclude Include="GUI\cc_console.h" />
+    <ClInclude Include="GUI\cc_control.h" />
+    <ClInclude Include="GUI\cc_controller.h" />
+    <ClInclude Include="GUI\cc_debug.h" />
+    <ClInclude Include="GUI\cc_def.h" />
+    <ClInclude Include="GUI\cc_direct2d.h" />
+    <ClInclude Include="GUI\cc_element.h" />
+    <ClInclude Include="GUI\cc_exception.h" />
+    <ClInclude Include="GUI\cc_form.h" />
+    <ClInclude Include="GUI\cc_include.h" />
+    <ClInclude Include="GUI\cc_interface.h" />
+    <ClInclude Include="GUI\cc_label.h" />
+    <ClInclude Include="GUI\cc_list.h" />
+    <ClInclude Include="GUI\cc_tab.h" />
+    <ClInclude Include="GUI\cc_toolstrip.h" />
+    <ClInclude Include="GUI\cc_presentation.h" />
+    <ClInclude Include="GUI\cc_resource.h" />
+    <ClInclude Include="GUI\cc_scroll.h" />
+    <ClInclude Include="GUI\cc_service.h" />
+    <ClInclude Include="GUI\cc_style.h" />
+    <ClInclude Include="GUI\cc_template.h" />
+    <ClInclude Include="GUI\cc_textbox.h" />
+    <ClInclude Include="GUI\cc_thread.h" />
+    <ClInclude Include="Script\cs_atm.h" />
+    <ClInclude Include="Script\cs_inst.h" />
+    <ClInclude Include="Script\cs_pool.h" />
+    <ClInclude Include="Script\cs_regex.h" />
+    <ClInclude Include="Script\cs_regfa.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="WTF\AVLTree.h" />
+    <ClInclude Include="WTF\Compiler.h" />
+    <ClInclude Include="WTF\Noncopyable.h" />
+    <ClInclude Include="WTF\PassOwnPtr.h" />
+    <ClInclude Include="WTF\PassRef.h" />
+    <ClInclude Include="WTF\PassRefPtr.h" />
+    <ClInclude Include="WTF\Platform.h" />
+    <ClInclude Include="WTF\RawPointer.h" />
+    <ClInclude Include="WTF\refcounted.h" />
+    <ClInclude Include="WTF\RefCountedArray.h" />
+    <ClInclude Include="WTF\RefCountedLeakCounter.h" />
+    <ClInclude Include="WTF\RefPtr.h" />
+    <ClInclude Include="WTF\RefPtrHashMap.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="GUI\cc_base.cpp" />
+    <ClCompile Include="GUI\cc_button.cpp" />
+    <ClCompile Include="GUI\cc_comctl.cpp" />
+    <ClCompile Include="GUI\cc_composition.cpp" />
+    <ClCompile Include="GUI\cc_console.cpp" />
+    <ClCompile Include="GUI\cc_control.cpp" />
+    <ClCompile Include="GUI\cc_controller.cpp" />
+    <ClCompile Include="GUI\cc_debug.cpp" />
+    <ClCompile Include="GUI\cc_direct2d.cpp" />
+    <ClCompile Include="GUI\cc_element.cpp" />
+    <ClCompile Include="GUI\cc_exception.cpp" />
+    <ClCompile Include="GUI\cc_form.cpp" />
+    <ClCompile Include="GUI\cc_include.cpp" />
+    <ClCompile Include="GUI\cc_interface.cpp" />
+    <ClCompile Include="GUI\cc_label.cpp" />
+    <ClCompile Include="GUI\cc_list.cpp" />
+    <ClCompile Include="GUI\cc_tab.cpp" />
+    <ClCompile Include="GUI\cc_toolstrip.cpp" />
+    <ClCompile Include="GUI\cc_presentation.cpp" />
+    <ClCompile Include="GUI\cc_resource.cpp" />
+    <ClCompile Include="GUI\cc_scroll.cpp" />
+    <ClCompile Include="GUI\cc_service.cpp" />
+    <ClCompile Include="GUI\cc_style.cpp" />
+    <ClCompile Include="GUI\cc_textbox.cpp" />
+    <ClCompile Include="GUI\cc_thread.cpp" />
+    <ClCompile Include="Script\cs_console.cpp" />
+    <ClCompile Include="Script\cs_inst.cpp" />
+    <ClCompile Include="Script\cs_regfa.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
